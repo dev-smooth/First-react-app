@@ -7,37 +7,84 @@
 .info {
   display: flex;
   justify-content: space-between;
-  padding: 1em 0em;
+  padding: 10px 12px;
+  margin: 0px 84px;
 }
 
 .settings {
   display: flex;
+  align-items: center;
 }
 
-.settings .dropdown,
+.settings .lg-dropdown,
+.money-dropdown,
 .contact {
-  padding: 0em 1em;
+  padding: 0em 0.25em;
 }
 
 .dropdown {
-  width: auto;
   position: relative;
 }
 
-.dropdown * {
-  box-sizing: border-box;
+.lg-dropdown img {
+  border-radius: 100%;
+  width: 1rem;
+  margin: 0.2em 0.75em;
+  padding: 0;
 }
 
 .select {
+  display: flex;
+  align-items: center;
   cursor: pointer;
+}
+
+.select * {
+  padding: 0em 0.15em;
 }
 
 .menu {
   z-index: 9999;
-  list-style: none;
   background-color: white;
   border: 1px solid rgba(148, 148, 148, 0.938);
   box-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.185);
   position: absolute;
   top: 1.5em;
+}
+
+.lg-menu {
+  min-width: 9em;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em 0.5em 0em;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.userinfo a {
+  color: black;
+  padding-left: 1em;
+}
+
+hr {
+  border-top: 0.2px solid rgba(114, 94, 94, 0.432);
+}
+
+.navbar {
+  margin: 0px 84px;
 }
