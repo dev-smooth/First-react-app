@@ -1,0 +1,12 @@
+export { default as us } from "./us.png";
+export { default as fr } from "./fn.png";
+export { default as en } from "./eng.png";
+export { default as logo } from "./logo_dark.png";
+export { default as banner1 } from "./menu_banner11.jpg";
+export { default as banner2 } from "./menu_banner22.jpg";
+export { default as banner3 } from "./menu_banner33.jpg";
+export { default as payment1 } from "./visa.png";
+export { default as payment2 } from "./discover.png";
+export { default as payment3 } from "./master_card.png";
+export { default as payment4 } from "./paypal.png";
+export { default as payment5 } from "./amarican_express.png";
