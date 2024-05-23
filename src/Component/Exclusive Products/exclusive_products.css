@@ -1,0 +1,23 @@
+.session {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.exclusive-content {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 84px;
+  justify-content: space-evenly;
+}
+
+.session-exclusive {
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.session-exclusive::before {
+}
+
+@media (width);

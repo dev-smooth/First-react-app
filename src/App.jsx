@@ -1,11 +1,11 @@
-import { Footer, SectionBanner, Header } from "./Component";
+import { Footer, Exclusive_products, Header } from "./Component";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
-      {/* <SectionBanner /> */}
+      <Exclusive_products />
       <Footer />
     </>
   );
