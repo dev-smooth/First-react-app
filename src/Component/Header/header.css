@@ -4,6 +4,14 @@
   text-decoration: none;
 }
 
+header {
+  position: sticky;
+  top: -41.3px;
+  z-index: 999;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
 .info {
   display: flex;
   justify-content: space-between;
@@ -90,7 +98,7 @@
 }
 
 .userinfo a:hover {
-  color: rgba(255, 52, 52, 0.877);
+  color: #ff324d;
 }
 
 hr {
@@ -126,10 +134,11 @@ hr {
 }
 
 .nav li a:hover {
-  color: rgba(255, 52, 52, 0.877);
+  color: #ff324d;
 }
 
 .dropdown-menu {
+  z-index: 99999;
   background-color: #fff;
   position: absolute;
   box-shadow: 0 13px 42px 11px rgba(0, 0, 0, 0.05);
@@ -153,7 +162,7 @@ hr {
 
 .products-menu {
   width: 87%;
-  transform: translateX(-41.5%);
+  transform: translateX(-40%);
 }
 
 .products-nav {
@@ -213,7 +222,7 @@ hr {
 }
 
 .search-cart span:hover {
-  color: rgba(255, 52, 52, 0.877);
+  color: #ff324d;
 }
 
 .search-bar {
