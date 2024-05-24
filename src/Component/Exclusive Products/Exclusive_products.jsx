@@ -14,9 +14,8 @@ import {
 const Exclusive_products = () => {
   return (
     <div className="session">
-      <div className="session-exclusive">
-        <h2>Exclusive Products</h2>
-      </div>
+      <h2 className="session-title">Exclusive Products</h2>
+
       <div className="exclusive-content">
         <Product
           product_img={furni1}
