@@ -2,6 +2,6 @@
   font-family: "poppin", sans-serif;
 }
 
-body {
-  min-height: 100wh;
+#root {
+  min-height: 100vh;
 }
