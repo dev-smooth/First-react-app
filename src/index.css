@@ -1,3 +1,7 @@
 :root {
   font-family: "poppin", sans-serif;
 }
+
+body {
+  min-height: 100wh;
+}
