@@ -1,0 +1,41 @@
+.each-slide-effect > .banner {
+  display: flex;
+  align-items: center;
+
+  background-size: cover;
+  height: 500px;
+}
+
+.each-slide-effect .content {
+  margin-left: 84px;
+  width: 40%;
+}
+
+.content * {
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.indicators {
+  z-index: 999999;
+  position: absolute;
+  top: 565px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  border-radius: 100vh;
+  border: 1px solid #ff324d;
+  padding: 10px 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff324d;
+}
