@@ -1,4 +1,4 @@
-import { Product } from "../index";
+import { Product } from "../../../index";
 import "./exclusive_products.css";
 import {
   furni1,
@@ -9,7 +9,7 @@ import {
   furni6,
   furni7,
   furni8,
-} from "../../assets/images";
+} from "../../../../assets/images";
 
 const Exclusive_products = () => {
   return (

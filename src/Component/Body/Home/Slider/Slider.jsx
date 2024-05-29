@@ -1,7 +1,7 @@
 import { Slide } from "react-slideshow-image";
 import "./slider.css";
 import "react-slideshow-image/dist/styles.css";
-import { slider1, slider2, slider3 } from "../../assets/images";
+import { slider1, slider2, slider3 } from "../../../../assets/images";
 
 const Slider = () => {
   return (
