@@ -8,8 +8,11 @@ const Slider = () => {
     <Slide
       arrows={false}
       indicators={{}}
+      duration={3000}
+      easing="ease-out"
       onChange={function noRefCheck() {}}
       onStartChange={function noRefCheck() {}}
+      transitionDuration={1000}
     >
       <div className="each-slide-effect">
         <div
