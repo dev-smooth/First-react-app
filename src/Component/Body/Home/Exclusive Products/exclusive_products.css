@@ -1,23 +1,21 @@
 .session {
   padding-top: 50px;
   padding-bottom: 20px;
+  text-align: center;
+  margin: 0px 84px;
 }
 
 .exclusive-content {
   z-index: 0;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 84px;
   justify-content: space-evenly;
 }
 
-.session-exclusive {
-  text-align: center;
+.session-title {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
 
 .session-exclusive::before {
 }
-
-@media (width);

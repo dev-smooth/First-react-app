@@ -1,5 +1,4 @@
 import { FaShuffle, FaRegHeart, FaMagnifyingGlassPlus } from "react-icons/fa6";
-import { SlMagnifierAdd } from "react-icons/sl";
 
 import "./product.css";
 import { useState } from "react";

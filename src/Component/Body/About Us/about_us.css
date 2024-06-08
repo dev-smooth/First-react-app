@@ -1,0 +1,10 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us p {
+  width: 40%;
+  margin-bottom: 20px;
+}

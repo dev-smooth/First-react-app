@@ -18,6 +18,7 @@ import {
   banner2,
   banner3,
 } from "../../assets/images/index";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 function Header() {
   const [country, setCountry] = useState("United States");
@@ -145,13 +146,13 @@ function Header() {
       <hr />
       <div className="navbar">
         <div>
-          <a href="#">
+          <Link to="/">
             <img src={logo} alt="logo" className="logo" draggable="false" />
-          </a>
+          </Link>
         </div>
         <ul className="nav">
           <li>
-            <a href="#">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li onMouseEnter={onHover1} onMouseLeave={onLeave1}>
             <a href="#">
@@ -161,7 +162,7 @@ function Header() {
               <div className="dropdown-menu pages-menu">
                 <ul onClick={handleClick1}>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="/about_us">About Us</Link>
                   </li>
                   <li>
                     <a href="#">Contact Us</a>
@@ -314,7 +315,7 @@ function Header() {
             <a href="#">SHOP</a>
           </li>
           <li>
-            <a href="#">CONTACT US</a>
+            <Link to="/about_us">ABOUT US</Link>
           </li>
         </ul>
         <div className="search-cart" id="search_bar">

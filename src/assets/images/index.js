@@ -18,3 +18,6 @@ export { default as furni5 } from "./furniture_img5.jpg";
 export { default as furni6 } from "./furniture_img6.jpg";
 export { default as furni7 } from "./furniture_img7.jpg";
 export { default as furni8 } from "./furniture_img8.jpg";
+export { default as slider1 } from "./banner7.jpg";
+export { default as slider2 } from "./banner8.jpg";
+export { default as slider3 } from "./banner9.jpg";
